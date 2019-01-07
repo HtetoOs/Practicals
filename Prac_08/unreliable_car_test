@@ -1,0 +1,11 @@
+from Prac_08.Unreliable_car import UnreliableCar
+import random
+
+carwork = random.randint(1,100)
+car1 = UnreliableCar("asdf", 20, 50)
+if carwork < car1.reliability:
+    car1.drive(0)
+else:
+    print("The car did not drive.")
+
+print(car1)

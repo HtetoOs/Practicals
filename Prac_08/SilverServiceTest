@@ -1,0 +1,6 @@
+from Prac_08.SilverServiceTaxi import SilverServiceTaxi
+
+newTaxi = SilverServiceTaxi("hummer", 200, 2)
+print(newTaxi)
+newTaxi.drive(18)
+print(newTaxi.get_fare())
